@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PROYECTO2_WEBService.AccesoDatos/PROYECTO2_WEBService.AccesoDatos.csproj" Id="1b55529b-8f60-4c84-9c64-f0622cec5d6b" />
+  <Project Path="PROYECTO2_WEBService.Logica/PROYECTO2_WEBService.Logica.csproj" Id="6fa79a2a-d4cf-4d96-9479-15edafd68984" />
+  <Project Path="PROYECTO2_WEBService.Modelo/PROYECTO2_WEBService.Modelo.csproj" Id="cf609785-cb7a-47d9-be17-46b5ec69dcaf" />
+  <Project Path="PROYECTO2_WEBService/PROYECTO2_WEBService.csproj" Id="5dfada68-e526-4a78-a418-7089f650e5ae" />
+</Solution>

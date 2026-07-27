@@ -1,0 +1,6 @@
+D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\bin\Debug\PROYECTO2_WEBService.Modelo.dll
+D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\bin\Debug\PROYECTO2_WEBService.Modelo.pdb
+D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.AssemblyReference.cache
+D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.CoreCompileInputs.cache
+D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.dll
+D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.pdb

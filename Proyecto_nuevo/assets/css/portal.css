@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c8c39b;
+    color: #000;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 290px;
+    min-height: 100vh;
+    background-color: #281061;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 48px 18px 30px;
+    text-align: center;
+}
+
+.logo-circulo {
+    width: 78px;
+    height: 78px;
+    background-color: #39c5f3;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+}
+
+.sidebar h1 {
+    font-size: 29px;
+    margin-bottom: 42px;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.menu-lateral a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.menu-lateral a:hover {
+    text-decoration: underline;
+}
+
+.contenido-principal {
+    margin-left: 290px;
+    min-height: 100vh;
+}
+
+.barra-superior {
+    height: 60px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 34px;
+    gap: 12px;
+    font-size: 18px;
+}
+
+.avatar-admin {
+    width: 28px;
+    height: 28px;
+    background-color: #e51b23;
+    border-radius: 50%;
+}
+
+.area-contenido {
+    padding: 38px;
+}
+
+.titulo-morado {
+    background-color: #281061;
+    color: white;
+    padding: 18px 38px;
+    font-size: 22px;
+    margin-bottom: 38px;
+}
+
+.tarjeta-contenido {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 38px 40px;
+}
+
+.tarjeta-contenido h2 {
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.intro {
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.lista-puestos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.puesto-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.12);
+}
+
+.puesto-item h3 {
+    margin-bottom: 14px;
+}
+
+.puesto-item h3 a {
+    color: #281061;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.puesto-item p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.fecha {
+    color: #555;
+    font-size: 15px !important;
+}
+
+.btn-postular,
+.btn-cancelar {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 11px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-postular {
+    background-color: #281061;
+    color: white;
+}
+
+.btn-postular:hover {
+    background-color: #3b1b86;
+}
+
+.btn-cancelar {
+    background-color: #777;
+    color: white;
+    margin-left: 10px;
+}
+
+.btn-cancelar:hover {
+    background-color: #555;
+}
+
+.mensaje-vacio {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.puesto-seleccionado {
+    background-color: white;
+    border-left: 6px solid #281061;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 24px 0;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.10);
+}
+
+.puesto-seleccionado h3 {
+    color: #281061;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.puesto-seleccionado p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.form-postulacion {
+    margin-top: 25px;
+}
+
+.grupo-form {
+    margin-bottom: 18px;
+}
+
+.grupo-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 17px;
+}
+
+.grupo-form input,
+.grupo-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.grupo-form input:focus,
+.grupo-form select:focus {
+    outline: none;
+    border-color: #281061;
+    box-shadow: 0 0 4px rgba(40, 16, 97, 0.4);
+}
+
+.acciones-form {
+    margin-top: 25px;
+}
+
+.mensaje-exito {
+    text-align: center;
+}
+
+.mensaje-exito h2 {
+    color: #281061;
+    margin-bottom: 20px;
+}
+
+.error-campo {
+    border: 2px solid #d00000 !important;
+}
+
+.texto-error {
+    color: #d00000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        min-height: auto;
+    }
+
+    .contenido-principal {
+        margin-left: 0;
+    }
+
+    .lista-puestos {
+        grid-template-columns: 1fr;
+    }
+
+    .area-contenido {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tarjeta-contenido {
+        padding: 26px 20px;
+    }
+
+    .titulo-morado {
+        font-size: 19px;
+        padding: 16px 22px;
+    }
+
+    .sidebar h1 {
+        font-size: 25px;
+    }
+
+    .menu-lateral a {
+        font-size: 16px;
+    }
+
+    .btn-postular,
+    .btn-cancelar {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}

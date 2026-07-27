@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="PROYECTO2_WEBService.WEBServiceCORE1" CodeBehind="WEBServiceCORE1.svc.cs" %>
