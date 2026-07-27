@@ -1,7 +1,7 @@
-﻿using System;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using PROYECTO2_WEBService.AccesoDatos.Infraestrutura;
 using PROYECTO2_WEBService.Modelo;
+using System;
 
 namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
 {
@@ -15,19 +15,18 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
                 new ConnectionFactory();
         }
 
-        public bool ExisteEmpleado(
+        public bool ExisteNumeroEmpleado(
             string numeroEmpleado)
         {
+            const string query = @"
+                SELECT COUNT(*)
+                FROM empleados
+                WHERE numero_empleado = @numeroEmpleado;";
+
             using (MySqlConnection conn =
                 _connectionFactory.CrearConexion())
             {
                 conn.Open();
-
-                string query = @"
-                    SELECT COUNT(*)
-                    FROM empleados
-                    WHERE numero_empleado =
-                          @numeroEmpleado";
 
                 using (MySqlCommand cmd =
                     new MySqlCommand(query, conn))
@@ -45,45 +44,161 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
             }
         }
 
-        public int CrearEmpleado(
-            CrearEmpleadoRequest request,
-            DateTime fechaNacimiento,
-            DateTime fechaContratacion)
+        public bool ExisteIdentificacion(
+            string identificacion)
         {
+            const string query = @"
+                SELECT COUNT(*)
+                FROM empleados
+                WHERE identificacion = @identificacion;";
+
             using (MySqlConnection conn =
                 _connectionFactory.CrearConexion())
             {
                 conn.Open();
 
-                string query = @"
-                    INSERT INTO empleados
-                    (
-                        numero_empleado,
-                        identificacion,
-                        tipo_identificacion,
-                        nombre_completo,
-                        fecha_nacimiento,
-                        correo,
-                        telefono,
-                        id_puesto,
-                        fecha_contratacion,
-                        estado
-                    )
-                    VALUES
-                    (
-                        @numeroEmpleado,
-                        @identificacion,
-                        @tipoIdentificacion,
-                        @nombreCompleto,
-                        @fechaNacimiento,
-                        @correo,
-                        @telefono,
-                        @idPuesto,
-                        @fechaContratacion,
-                        @estado
-                    );
+                using (MySqlCommand cmd =
+                    new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue(
+                        "@identificacion",
+                        identificacion);
 
-                    SELECT LAST_INSERT_ID();";
+                    int cantidad =
+                        Convert.ToInt32(
+                            cmd.ExecuteScalar());
+
+                    return cantidad > 0;
+                }
+            }
+        }
+
+        public bool ExisteCorreo(
+            string correo)
+        {
+            const string query = @"
+                SELECT COUNT(*)
+                FROM empleados
+                WHERE correo = @correo;";
+
+            using (MySqlConnection conn =
+                _connectionFactory.CrearConexion())
+            {
+                conn.Open();
+
+                using (MySqlCommand cmd =
+                    new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue(
+                        "@correo",
+                        correo);
+
+                    int cantidad =
+                        Convert.ToInt32(
+                            cmd.ExecuteScalar());
+
+                    return cantidad > 0;
+                }
+            }
+        }
+
+        public bool ExisteTelefono(
+            string telefono)
+        {
+            const string query = @"
+                SELECT COUNT(*)
+                FROM empleados
+                WHERE telefono = @telefono;";
+
+            using (MySqlConnection conn =
+                _connectionFactory.CrearConexion())
+            {
+                conn.Open();
+
+                using (MySqlCommand cmd =
+                    new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue(
+                        "@telefono",
+                        telefono);
+
+                    int cantidad =
+                        Convert.ToInt32(
+                            cmd.ExecuteScalar());
+
+                    return cantidad > 0;
+                }
+            }
+        }
+
+        public bool ExistePuesto(
+            int idPuesto)
+        {
+            const string query = @"
+                SELECT COUNT(*)
+                FROM puestos
+                WHERE id_puesto = @idPuesto;";
+
+            using (MySqlConnection conn =
+                _connectionFactory.CrearConexion())
+            {
+                conn.Open();
+
+                using (MySqlCommand cmd =
+                    new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue(
+                        "@idPuesto",
+                        idPuesto);
+
+                    int cantidad =
+                        Convert.ToInt32(
+                            cmd.ExecuteScalar());
+
+                    return cantidad > 0;
+                }
+            }
+        }
+
+        public int CrearEmpleado(
+            CrearEmpleadoRequest request,
+            DateTime fechaNacimiento,
+            DateTime fechaContratacion)
+        {
+            const string query = @"
+                INSERT INTO empleados
+                (
+                    numero_empleado,
+                    identificacion,
+                    tipo_identificacion,
+                    nombre_completo,
+                    fecha_nacimiento,
+                    correo,
+                    telefono,
+                    id_puesto,
+                    fecha_contratacion,
+                    estado
+                )
+                VALUES
+                (
+                    @numeroEmpleado,
+                    @identificacion,
+                    @tipoIdentificacion,
+                    @nombreCompleto,
+                    @fechaNacimiento,
+                    @correo,
+                    @telefono,
+                    @idPuesto,
+                    @fechaContratacion,
+                    @estado
+                );
+
+                SELECT LAST_INSERT_ID();";
+
+            using (MySqlConnection conn =
+                _connectionFactory.CrearConexion())
+            {
+                conn.Open();
 
                 using (MySqlCommand cmd =
                     new MySqlCommand(query, conn))

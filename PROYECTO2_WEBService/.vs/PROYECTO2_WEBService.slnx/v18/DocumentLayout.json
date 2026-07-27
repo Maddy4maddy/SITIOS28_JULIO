@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\limaw\\documents\\cuc\\sitios\\proyecto_nuevo_alcance2\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice\\webservicecore3.svc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore3.svc||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\proyecto2_webservice\\webservicecore3.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore3.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\proyecto2_webservice.logica\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|solutionrelative:proyecto2_webservice.logica\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\proyecto2_webservice.accesodatos\\repositorios\\empleadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|solutionrelative:proyecto2_webservice.accesodatos\\repositorios\\empleadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 98,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{08a1bf1d-7967-4afc-8253-1790862ab8c9}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WEBServiceCORE3.svc",
+              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE3.svc",
+              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc",
+              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE3.svc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2026-07-27T19:23:59.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WEBServiceCORE3.svc.cs",
+              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAwMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T19:22:39.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
+              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T19:10:44.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpleadoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T19:05:59.073Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 145,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:33:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:40:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:41:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:45:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:46:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:47:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:48:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:49:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:50:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:51:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:52:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:53:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:54:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:55:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:56:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:57:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:58:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:59:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:60:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

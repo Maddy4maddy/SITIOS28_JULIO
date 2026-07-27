@@ -4,3 +4,9 @@ D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Mo
 D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.CoreCompileInputs.cache
 D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.dll
 D:\Proyecto_Sitios\PROYECTO2_Sitios\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.pdb
+C:\Users\limaw\Documents\CUC\Sitios\Proyecto_Alcance2\SITIOS_PROYECTO_2\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\bin\Debug\PROYECTO2_WEBService.Modelo.dll
+C:\Users\limaw\Documents\CUC\Sitios\Proyecto_Alcance2\SITIOS_PROYECTO_2\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\bin\Debug\PROYECTO2_WEBService.Modelo.pdb
+C:\Users\limaw\Documents\CUC\Sitios\Proyecto_Alcance2\SITIOS_PROYECTO_2\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.AssemblyReference.cache
+C:\Users\limaw\Documents\CUC\Sitios\Proyecto_Alcance2\SITIOS_PROYECTO_2\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\limaw\Documents\CUC\Sitios\Proyecto_Alcance2\SITIOS_PROYECTO_2\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.dll
+C:\Users\limaw\Documents\CUC\Sitios\Proyecto_Alcance2\SITIOS_PROYECTO_2\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.pdb
