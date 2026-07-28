@@ -1,22 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\",
+  "WorkspaceRootPath": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\limaw\\documents\\cuc\\sitios\\proyecto_nuevo_alcance2\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice\\webservicecore3.svc||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore3.svc||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\proyecto2_webservice\\webservicecore3.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore3.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.logica\\services\\oferentecore8service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|solutionrelative:proyecto2_webservice.logica\\services\\oferentecore8service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\proyecto2_webservice.logica\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|solutionrelative:proyecto2_webservice.logica\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.logica\\services\\oferenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|solutionrelative:proyecto2_webservice.logica\\services\\oferenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\proyecto2_webservice.accesodatos\\repositorios\\empleadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.logica\\services\\puestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA79A2A-D4CF-4D96-9479-15EDAFD68984}|PROYECTO2_WEBService.Logica\\PROYECTO2_WEBService.Logica.csproj|solutionrelative:proyecto2_webservice.logica\\services\\puestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.accesodatos\\repositorios\\puestorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|solutionrelative:proyecto2_webservice.accesodatos\\repositorios\\puestorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.accesodatos\\repositorios\\oferenterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|solutionrelative:proyecto2_webservice.accesodatos\\repositorios\\oferenterepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.accesodatos\\repositorios\\oferentecore8repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|solutionrelative:proyecto2_webservice.accesodatos\\repositorios\\oferentecore8repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.accesodatos\\repositorios\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|solutionrelative:proyecto2_webservice.accesodatos\\repositorios\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.accesodatos\\repositorios\\empleadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|solutionrelative:proyecto2_webservice.accesodatos\\repositorios\\empleadorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice.accesodatos\\infraestructura\\connectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B55529B-8F60-4C84-9C64-F0622CEC5D6B}|PROYECTO2_WEBService.AccesoDatos\\PROYECTO2_WEBService.AccesoDatos.csproj|solutionrelative:proyecto2_webservice.accesodatos\\infraestructura\\connectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice\\iwebservicecore8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\iwebservicecore8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice\\iwebservicecore1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\iwebservicecore1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice\\webservicecore7.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore7.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|c:\\users\\maddy\\source\\repos\\parq1926\\sitios28_julio\\proyecto2_webservice\\proyecto2_webservice\\webservicecore1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DFADA68-E526-4A78-A418-7089F650E5AE}|PROYECTO2_WEBService\\PROYECTO2_WEBService.csproj|solutionrelative:proyecto2_webservice\\webservicecore1.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 98,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 46,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,10 +94,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
@@ -66,57 +102,317 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:42:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:36:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:32:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:37:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:43:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:44:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:45:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:46:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:47:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:48:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:49:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:50:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:51:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:52:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:53:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:59:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:64:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:65:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:66:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:67:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:63:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:57:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:55:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:54:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:56:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:60:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:58:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WEBServiceCORE7.svc.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE7.svc.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE7.svc.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE7.svc.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE7.svc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:43:34.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\LoginRepositorio.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\LoginRepositorio.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\LoginRepositorio.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\LoginRepositorio.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAowAIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:41:31.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmpleadoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAAAAEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:41:13.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WEBServiceCORE1.svc.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE1.svc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:36:24.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IWEBServiceCORE1.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE1.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\IWEBServiceCORE1.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE1.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService\\IWEBServiceCORE1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:36:05.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WEBServiceCORE3.svc",
-              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE3.svc",
-              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE3.svc",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
-              "WhenOpened": "2026-07-27T19:23:59.409Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\Web.config",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\Web.config",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\Web.config",
+              "RelativeToolTip": "PROYECTO2_WEBService\\Web.config",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-07-27T20:34:27.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WEBServiceCORE3.svc.cs",
-              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
-              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService\\WEBServiceCORE3.svc.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAAwMEAAAABAAAAAAAAAA==",
+              "Title": "OferenteCORE8Service.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\OferenteCORE8Service.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.Logica\\Services\\OferenteCORE8Service.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\OferenteCORE8Service.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.Logica\\Services\\OferenteCORE8Service.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T19:22:39.631Z",
+              "WhenOpened": "2026-07-27T20:34:06.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmpleadoService.cs",
-              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
-              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService.Logica\\Services\\EmpleadoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwBAAABAAAAAAAAAA==",
+              "Title": "OferenteService.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\OferenteService.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.Logica\\Services\\OferenteService.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\OferenteService.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.Logica\\Services\\OferenteService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA+wCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T19:10:44.598Z"
+              "WhenOpened": "2026-07-27T20:33:45.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmpleadoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
-              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
-              "ToolTip": "C:\\Users\\limaw\\Documents\\CUC\\Sitios\\Proyecto_Nuevo_Alcance2\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
-              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\EmpleadoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Title": "PuestoService.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\PuestoService.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.Logica\\Services\\PuestoService.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.Logica\\Services\\PuestoService.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.Logica\\Services\\PuestoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-27T19:05:59.073Z"
+              "WhenOpened": "2026-07-27T20:33:32.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OferenteCORE8Repositorio.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteCORE8Repositorio.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteCORE8Repositorio.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteCORE8Repositorio.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteCORE8Repositorio.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:33:10.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OferenteRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteRepositorio.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteRepositorio.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteRepositorio.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\OferenteRepositorio.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:32:57.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PuestoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\PuestoRepositorio.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\PuestoRepositorio.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Repositorios\\PuestoRepositorio.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Repositorios\\PuestoRepositorio.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAALIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:32:42.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Infraestructura\\ConnectionFactory.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService.AccesoDatos\\Infraestructura\\ConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService.AccesoDatos\\Infraestructura\\ConnectionFactory.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService.AccesoDatos\\Infraestructura\\ConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:31:53.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IWEBServiceCORE8.cs",
+              "DocumentMoniker": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
+              "RelativeDocumentMoniker": "PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
+              "ToolTip": "C:\\Users\\maddy\\source\\repos\\Parq1926\\SITIOS28_JULIO\\PROYECTO2_WEBService\\PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
+              "RelativeToolTip": "PROYECTO2_WEBService\\IWEBServiceCORE8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T20:29:40.3Z",
+              "EditorCaption": ""
             }
           ]
         },

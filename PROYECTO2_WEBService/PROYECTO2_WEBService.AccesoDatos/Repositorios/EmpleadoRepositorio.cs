@@ -1,5 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
-using PROYECTO2_WEBService.AccesoDatos.Infraestrutura;
+using PROYECTO2_WEBService.AccesoDatos.Infraestructura;  
 using PROYECTO2_WEBService.Modelo;
 using System;
 
@@ -137,7 +137,7 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
             const string query = @"
                 SELECT COUNT(*)
                 FROM puestos
-                WHERE id_puesto = @idPuesto;";
+                WHERE id = @idPuesto;"; 
 
             using (MySqlConnection conn =
                 _connectionFactory.CrearConexion())

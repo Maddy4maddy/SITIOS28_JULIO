@@ -1,26 +1,28 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 
 namespace PROYECTO2_WEBService.Modelo
 {
+    [Serializable]
     [DataContract]
     public class PuestoDTO
     {
-        [DataMember]
+        [DataMember(Name = "Id")]
         public int Id { get; set; }
 
-        [DataMember]
+        [DataMember(Name = "CodigoPuesto")]
         public string CodigoPuesto { get; set; }
 
-        [DataMember]
+        [DataMember(Name = "NombrePuesto")]
         public string NombrePuesto { get; set; }
 
-        [DataMember]
+        [DataMember(Name = "Salario")]
         public decimal Salario { get; set; }
 
-        [DataMember]
+        [DataMember(Name = "Estado")]
         public string Estado { get; set; }
 
-        [DataMember]
+        [DataMember(Name = "FechaCreacion")]
         public string FechaCreacion { get; set; }
     }
 }

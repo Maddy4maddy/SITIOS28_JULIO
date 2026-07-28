@@ -1,8 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Configuration;
-using System.Data.SqlClient;
 
-namespace PROYECTO2_WEBService.AccesoDatos.Infraestrutura
+namespace PROYECTO2_WEBService.AccesoDatos.Infraestructura
 {
     public class ConnectionFactory
     {

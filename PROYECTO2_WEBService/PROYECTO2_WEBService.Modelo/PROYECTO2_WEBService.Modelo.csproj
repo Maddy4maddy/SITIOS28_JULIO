@@ -46,6 +46,9 @@
     <Compile Include="CrearEmpleadoResponse.cs" />
     <Compile Include="LoginRequest.cs" />
     <Compile Include="LoginResponse.cs" />
+    <Compile Include="OferenteCORE8DTO.cs" />
+    <Compile Include="OferenteDetalleDTO.cs" />
+    <Compile Include="OferenteResumenDTO.cs" />
     <Compile Include="PuestoDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UsuarioLoginDTO.cs" />

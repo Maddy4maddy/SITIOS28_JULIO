@@ -1,6 +1,6 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
-using PROYECTO2_WEBService.AccesoDatos.Infraestrutura;
+using PROYECTO2_WEBService.AccesoDatos.Infraestructura;  
 using PROYECTO2_WEBService.Modelo;
 
 namespace PROYECTO2_WEBService.AccesoDatos.Repositorios

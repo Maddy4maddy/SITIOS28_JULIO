@@ -1,93 +1,49 @@
-async function login(){
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('loginForm');
+    const mensaje = document.getElementById('mensajeLogin');
 
-    const usuario = document.getElementById("usuario").value;
-    const contrasena = document.getElementById("contrasena").value;
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
 
-    const mensaje = document.getElementById("mensaje");
+        const usuario = document.getElementById('usuario').value.trim();
+        const contrasena = document.getElementById('contrasena').value.trim();
 
+        if (!usuario || !contrasena) {
+            mensaje.textContent = 'Por favor, complete todos los campos';
+            mensaje.className = 'mensaje-login error';
+            return;
+        }
 
-    if(usuario === "" || contrasena === ""){
+        mensaje.textContent = 'Validando credenciales...';
+        mensaje.className = 'mensaje-login loading';
 
-        mensaje.innerHTML =
-        "Usuario y/o contraseña incorrectos.";
+        const formData = new FormData();
+        formData.append('usuario', usuario);
+        formData.append('contrasena', contrasena);
 
-        return;
-    }
-
-
-    try{
-
-
-        const response = await fetch(
-        "http://localhost:61932/WEBSERVICEcore4.svc/Login",
-        {
-            method:"POST",
-
-            headers:{
-                "Content-Type":"application/json"
-            },
-
-            body:JSON.stringify({
-
-                Usuario:usuario,
-                Contrasena:contrasena
-
-            })
+        fetch('server.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                mensaje.textContent = 'Login exitoso, redirigiendo...';
+                mensaje.className = 'mensaje-login success';
+                
+                //Redirige a la URL que viene del servidor o a puestos por defecto
+                setTimeout(() => {
+                    const redirectUrl = data.redirect || 'puestos_core1.php';
+                    window.location.href = redirectUrl;
+                }, 1000);
+            } else {
+                mensaje.textContent = data.message || 'Error al iniciar sesión';
+                mensaje.className = 'mensaje-login error';
+            }
+        })
+        .catch(error => {
+            mensaje.textContent = 'Error de conexión: ' + error.message;
+            mensaje.className = 'mensaje-login error';
         });
-
-
-
-        const data = await response.json();
-
-
-
-        if(data.Exito){
-
-
-            // Guardamos sesión PHP
-
-            const formData = new FormData();
-
-            formData.append(
-                "id",
-                data.IdUsuario
-            );
-
-            formData.append(
-                "nombre",
-                data.Nombre
-            );
-
-
-            await fetch(
-                "guardarSesion.php",
-                {
-                    method:"POST",
-                    body:formData
-                }
-            );
-
-
-            window.location.href="index.php";
-
-
-        }
-        else{
-
-            mensaje.innerHTML=data.Mensaje;
-
-        }
-
-
-
-    }catch(error){
-
-        console.error(error);
-
-        mensaje.innerHTML=
-        "Error al conectar con el servicio.";
-
-    }
-
-
-}
+    });
+});

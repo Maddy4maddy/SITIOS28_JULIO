@@ -1,33 +1,73 @@
 <?php
-/**
- * server.php - Script para iniciar el servidor PHP en localhost
- */
+session_start();
+header('Content-Type: application/json');
 
-echo "========================================\n";
-echo "  INICIANDO SERVIDOR PHP\n";
-echo "========================================\n\n";
+$response = ['success' => false, 'message' => ''];
 
-// Configuracion del servidor
-$host = 'localhost';
-$port = 8000;
-$document_root = __DIR__;
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $usuario = $_POST['usuario'] ?? '';
+    $contrasena = $_POST['contrasena'] ?? '';
 
-echo "Directorio: " . $document_root . "\n";
-echo "Servidor:   http://$host:$port\n";
-echo "Archivo:    index.php\n\n";
+    if (empty($usuario) || empty($contrasena)) {
+        $response['message'] = 'Usuario y contraseña son requeridos';
+        echo json_encode($response);
+        exit();
+    }
 
-echo "========================================\n";
-echo "  Presiona Ctrl+C para detener el servidor\n";
-echo "========================================\n\n";
+    // URL 
+    $wsUrl = 'http://localhost:61932/WEBSERVICEcore4.svc/Login';
 
-echo "Servidor iniciado correctamente!\n";
-echo "Abre tu navegador en: http://$host:$port\n";
-echo "O visita: http://$host:$port/index.php\n\n";
+    $data = json_encode([
+        'Usuario' => $usuario,
+        'Contrasena' => $contrasena
+    ]);
 
-// Usa la ruta completa de PHP de XAMPP
-$phpPath = 'C:\xampp\php\php.exe';
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $wsUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json',
+        'Accept: application/json',
+        'Content-Length: ' . strlen($data)
+    ]);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+    
+    $result = curl_exec($ch);
+    
+    if (curl_errno($ch)) {
+        $response['message'] = 'Error de conexión: ' . curl_error($ch);
+        curl_close($ch);
+        echo json_encode($response);
+        exit();
+    }
+    
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
 
-// Ejecutar el servidor con la ruta completa de PHP
-$command = "$phpPath -S $host:$port -t $document_root";
-passthru($command);
+    if ($httpCode === 200 && $result) {
+        $loginResult = json_decode($result, true);
+        
+        if ($loginResult) {
+            if (isset($loginResult['Exito']) && $loginResult['Exito'] === true) {
+                $_SESSION['usuario'] = $loginResult['Nombre'] ?? $usuario;
+                $_SESSION['id_usuario'] = $loginResult['IdUsuario'] ?? 0;
+                $response['success'] = true;
+                $response['message'] = 'Login exitoso';
+                $response['redirect'] = 'puestos_core1.php';
+            } else {
+                $response['message'] = $loginResult['Mensaje'] ?? 'Credenciales incorrectas';
+            }
+        } else {
+            $response['message'] = 'Respuesta inválida del servidor';
+        }
+    } else {
+        $response['message'] = 'Error al conectar con el servicio de autenticación (HTTP ' . $httpCode . ')';
+    }
+}
+
+echo json_encode($response);
 ?>

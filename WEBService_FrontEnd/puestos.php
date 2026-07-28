@@ -15,6 +15,9 @@
     <link rel="stylesheet"
           href="css/styles.css">
 
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%232d1866'/><text x='50' y='68' font-size='45' text-anchor='middle' fill='white' font-family='Arial'>A</text></svg>">
+    
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
