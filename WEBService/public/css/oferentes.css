@@ -1,0 +1,452 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #f3f5f7;
+    color: #1f2933;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.oferentes-topbar {
+    min-height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 14px 5%;
+    color: #ffffff;
+    background: #0d2238;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.oferentes-brand {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.oferentes-logo {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    background: #244c73;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.oferentes-brand-text strong {
+    display: block;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.oferentes-brand-text span {
+    display: block;
+    margin-top: 3px;
+    color: #bcc9d5;
+    font-size: 12px;
+}
+
+.oferentes-user {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.oferentes-user-info {
+    text-align: right;
+}
+
+.oferentes-user-info span {
+    display: block;
+    margin-bottom: 3px;
+    color: #bcc9d5;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.oferentes-user-info strong {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.oferentes-avatar {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    background: #244c73;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.oferentes-logout {
+    padding: 9px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 6px;
+    color: #ffffff;
+    background: transparent;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.oferentes-logout:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.oferentes-main {
+    width: min(1180px, 92%);
+    margin: 0 auto;
+    padding: 64px 0 70px;
+}
+
+.oferentes-heading {
+    display: grid;
+    grid-template-columns: 220px 1fr 280px;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 28px;
+}
+
+.oferentes-back {
+    color: #244c73;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.oferentes-back:hover {
+    text-decoration: underline;
+}
+
+.oferentes-title {
+    text-align: center;
+}
+
+.oferentes-title h1 {
+    margin: 0 0 8px;
+    color: #16324f;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.oferentes-title p {
+    margin: 0;
+    color: #66717d;
+    font-size: 15px;
+}
+
+.oferentes-instruction {
+    margin: 0;
+    color: #66717d;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.oferentes-card {
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #dce1e6;
+    border-radius: 12px;
+    box-shadow: 0 7px 22px rgba(21, 43, 66, 0.09);
+}
+
+.oferentes-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 22px 24px;
+    border-bottom: 1px solid #dce1e6;
+}
+
+.oferentes-card-header h2 {
+    margin: 0;
+    color: #16324f;
+    font-size: 21px;
+}
+
+.oferentes-card-header span {
+    color: #66717d;
+    font-size: 14px;
+}
+
+.oferentes-card-header strong {
+    color: #16324f;
+}
+
+.oferentes-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.oferentes-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.oferentes-table thead {
+    color: #ffffff;
+    background: #16324f;
+}
+
+.oferentes-table th {
+    padding: 15px 18px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+}
+
+.oferentes-table td {
+    padding: 17px 18px;
+    color: #1f2933;
+    border-bottom: 1px solid #dce1e6;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.oferentes-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.oferentes-table tbody tr:hover {
+    background: #f7f9fb;
+}
+
+.loading-cell,
+.empty-cell,
+.error-cell {
+    padding: 32px 20px !important;
+    text-align: center;
+}
+
+.loading-cell,
+.empty-cell {
+    color: #66717d;
+}
+
+.error-cell {
+    color: #a93232;
+    background: #fff5f4;
+}
+
+.puesto-link {
+    color: #00658c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.puesto-link:hover {
+    color: #244c73;
+    text-decoration: underline;
+}
+
+#detalle-oferente {
+    padding: 28px;
+}
+
+.detalle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.detalle-item {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.detalle-item label {
+    color: #496078;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.detalle-item span {
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 11px 13px;
+    background: #f7f9fc;
+    border: 1px solid #dce3eb;
+    border-radius: 8px;
+    color: #172b3d;
+}
+
+.acciones-detalle {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 28px;
+    padding-top: 22px;
+    border-top: 1px solid #e3e8ee;
+}
+
+.btn-crear-empleado,
+.btn-cancelar {
+    min-width: 145px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn-crear-empleado {
+    background: #0b4f82;
+    color: #ffffff;
+}
+
+.btn-crear-empleado:hover {
+    background: #083d65;
+}
+
+.btn-cancelar {
+    background: #e7ebef;
+    color: #263b4d;
+}
+
+.btn-cancelar:hover {
+    background: #d8dee5;
+}
+
+.btn-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border-radius: 7px;
+    background: #0b4f82;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-cv:hover {
+    background: #083d65;
+}
+
+.loading {
+    margin: 0;
+    padding: 40px;
+    color: #66717d;
+    text-align: center;
+}
+
+.error {
+    padding: 15px;
+    border: 1px solid #f5c2c7;
+    border-radius: 8px;
+    background: #fdeaea;
+    color: #b00020;
+}
+
+#mensaje-empleado {
+    margin-top: 22px;
+}
+
+.formulario-empleado {
+    padding: 20px;
+    border: 1px solid #dce3eb;
+    border-radius: 9px;
+    background: #f7f9fc;
+}
+
+.formulario-empleado h3 {
+    margin-top: 0;
+    color: #16324f;
+}
+
+@media (max-width: 800px) {
+    .oferentes-topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 18px 5%;
+    }
+
+    .oferentes-user {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .oferentes-main {
+        width: 92%;
+        padding: 36px 0 45px;
+    }
+
+    .oferentes-heading {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .oferentes-title {
+        text-align: left;
+    }
+
+    .oferentes-instruction {
+        text-align: left;
+    }
+
+    .oferentes-card-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .detalle-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 520px) {
+    .oferentes-brand-text span,
+    .oferentes-user-info {
+        display: none;
+    }
+
+    .oferentes-user {
+        gap: 10px;
+    }
+
+    .oferentes-avatar {
+        width: 38px;
+        height: 38px;
+    }
+
+    .oferentes-logout {
+        padding: 8px 11px;
+        font-size: 12px;
+    }
+
+    #detalle-oferente {
+        padding: 18px;
+    }
+
+    .acciones-detalle {
+        flex-direction: column;
+    }
+
+    .btn-crear-empleado,
+    .btn-cancelar {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

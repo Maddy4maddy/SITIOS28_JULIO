@@ -16,3 +16,9 @@ C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECT
 C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.CoreCompileInputs.cache
 C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.dll
 C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.pdb
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\bin\Debug\PROYECTO2_WEBService.Modelo.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\bin\Debug\PROYECTO2_WEBService.Modelo.pdb
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.AssemblyReference.cache
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.csproj.CoreCompileInputs.cache
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.Modelo\obj\Debug\PROYECTO2_WEBService.Modelo.pdb

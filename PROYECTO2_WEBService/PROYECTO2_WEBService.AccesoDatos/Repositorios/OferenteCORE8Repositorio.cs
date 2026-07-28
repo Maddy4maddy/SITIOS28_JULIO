@@ -23,7 +23,7 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
                 conn.Open();
 
                 string query = @"
-                    SELECT o.codigo_oferente, o.identificacion, o.tipo_identificacion, 
+                    SELECT o.codigo_oferente, o.identificacion, o.tipo_identificacion,
                            o.nombre_completo, o.fecha_nacimiento, o.correo, o.telefono
                     FROM oferentes o
                     WHERE o.codigo_oferente = @codigo";

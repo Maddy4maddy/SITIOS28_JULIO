@@ -10,6 +10,9 @@ namespace PROYECTO2_WEBService.Modelo
         [DataMember(Name = "IdPostulacion")]
         public int IdPostulacion { get; set; }
 
+        [DataMember(Name = "CodigoOferente")]
+        public string CodigoOferente { get; set; }
+
         [DataMember(Name = "Identificacion")]
         public string Identificacion { get; set; }
 

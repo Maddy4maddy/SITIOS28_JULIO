@@ -118,3 +118,43 @@ C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECT
 C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\maddy\source\repos\Parq1926\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\obj\Debug\PROYECTO.7DFEAD2C.Up2Date
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\PROYECTO2_WEBService.AccesoDatos.dll.config
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\PROYECTO2_WEBService.AccesoDatos.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\PROYECTO2_WEBService.AccesoDatos.pdb
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\BouncyCastle.Cryptography.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\Google.Protobuf.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\K4os.Compression.LZ4.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\K4os.Hash.xxHash.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\MySql.Data.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\PROYECTO2_WEBService.Modelo.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Buffers.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.IO.Pipelines.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Memory.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Numerics.Vectors.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\ZstdSharp.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\PROYECTO2_WEBService.Modelo.pdb
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\BouncyCastle.Cryptography.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\Google.Protobuf.pdb
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\Google.Protobuf.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\K4os.Compression.LZ4.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\K4os.Hash.xxHash.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\MySql.Data.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Buffers.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.IO.Pipelines.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Memory.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Numerics.Vectors.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\obj\Debug\PROYECTO2_WEBService.AccesoDatos.csproj.AssemblyReference.cache
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\obj\Debug\PROYECTO2_WEBService.AccesoDatos.csproj.CoreCompileInputs.cache
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\obj\Debug\PROYECTO.7DFEAD2C.Up2Date
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\obj\Debug\PROYECTO2_WEBService.AccesoDatos.dll
+D:\TI\PARA SITIOS OFICIAL\SITIOS28_JULIO\PROYECTO2_WEBService\PROYECTO2_WEBService.AccesoDatos\obj\Debug\PROYECTO2_WEBService.AccesoDatos.pdb

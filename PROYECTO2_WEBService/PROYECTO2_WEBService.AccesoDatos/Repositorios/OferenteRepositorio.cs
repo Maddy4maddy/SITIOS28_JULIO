@@ -21,15 +21,22 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
             {
                 conn.Open();
 
-                string query = "SELECT id FROM puestos WHERE codigo_puesto = @codigoPuesto";
+                string query = @"
+                    SELECT id
+                    FROM puestos
+                    WHERE codigo_puesto = @codigoPuesto";
+
                 using (MySqlCommand cmd = new MySqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@codigoPuesto", codigoPuesto);
+
                     object result = cmd.ExecuteScalar();
+
                     if (result != null)
                     {
                         return Convert.ToInt32(result);
                     }
+
                     throw new Exception("Puesto no encontrado");
                 }
             }
@@ -37,18 +44,26 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
 
         public List<OferenteResumenDTO> ObtenerOferentesPorIdPuesto(int idPuesto)
         {
-            List<OferenteResumenDTO> oferentes = new List<OferenteResumenDTO>();
+            List<OferenteResumenDTO> oferentes =
+                new List<OferenteResumenDTO>();
 
             using (MySqlConnection conn = _connectionFactory.CrearConexion())
             {
                 conn.Open();
 
                 string query = @"
-                    SELECT 
-                        pp.id_postulacion, o.identificacion, o.nombre_completo, 
-                        o.correo, o.telefono, pp.curriculum, pp.fecha_postulacion
+                    SELECT
+                        pp.id_postulacion,
+                        o.codigo_oferente,
+                        o.identificacion,
+                        o.nombre_completo,
+                        o.correo,
+                        o.telefono,
+                        pp.curriculum,
+                        pp.fecha_postulacion
                     FROM postulaciones_puestos pp
-                    INNER JOIN oferentes o ON pp.Identificacion = o.identificacion
+                    INNER JOIN oferentes o
+                        ON pp.identificacion = o.identificacion
                     WHERE pp.id_puesto = @idPuesto
                     ORDER BY pp.fecha_postulacion DESC";
 
@@ -62,15 +77,38 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
                         {
                             oferentes.Add(new OferenteResumenDTO
                             {
-                                IdPostulacion = Convert.ToInt32(reader["id_postulacion"]),
-                                Identificacion = reader["identificacion"].ToString(),
-                                Nombre = reader["nombre_completo"].ToString(),
+                                IdPostulacion = Convert.ToInt32(
+                                    reader["id_postulacion"]
+                                ),
+
+                                CodigoOferente =
+                                    reader["codigo_oferente"]?.ToString() ?? "",
+
+                                Identificacion =
+                                    reader["identificacion"]?.ToString() ?? "",
+
+                                Nombre =
+                                    reader["nombre_completo"]?.ToString() ?? "",
+
                                 Apellido = "",
-                                Email = reader["correo"]?.ToString() ?? "",
-                                Telefono = reader["telefono"]?.ToString() ?? "",
-                                Curriculum = reader["curriculum"]?.ToString() ?? "",
-                                FechaPostulacion = Convert.ToDateTime(reader["fecha_postulacion"])
-                                    .ToString("yyyy-MM-dd HH:mm:ss")
+
+                                Email =
+                                    reader["correo"]?.ToString() ?? "",
+
+                                Telefono =
+                                    reader["telefono"]?.ToString() ?? "",
+
+                                Curriculum =
+                                    reader["curriculum"]?.ToString() ?? "",
+
+                                FechaPostulacion =
+                                    reader["fecha_postulacion"] != DBNull.Value
+                                        ? Convert
+                                            .ToDateTime(
+                                                reader["fecha_postulacion"]
+                                            )
+                                            .ToString("yyyy-MM-dd HH:mm:ss")
+                                        : ""
                             });
                         }
                     }
@@ -89,19 +127,32 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
                 conn.Open();
 
                 string query = @"
-                    SELECT 
-                        pp.id_postulacion, o.identificacion, o.nombre_completo, 
-                        o.correo, o.telefono, o.fecha_nacimiento, pp.curriculum, 
-                        pp.fecha_postulacion, p.nombre_puesto, p.codigo_puesto, 
-                        p.salario, p.estado
+                    SELECT
+                        pp.id_postulacion,
+                        o.identificacion,
+                        o.nombre_completo,
+                        o.correo,
+                        o.telefono,
+                        o.fecha_nacimiento,
+                        pp.curriculum,
+                        pp.fecha_postulacion,
+                        p.nombre_puesto,
+                        p.codigo_puesto,
+                        p.salario,
+                        p.estado
                     FROM postulaciones_puestos pp
-                    INNER JOIN oferentes o ON pp.Identificacion = o.identificacion
-                    INNER JOIN puestos p ON pp.id_puesto = p.id
+                    INNER JOIN oferentes o
+                        ON pp.identificacion = o.identificacion
+                    INNER JOIN puestos p
+                        ON pp.id_puesto = p.id
                     WHERE pp.id_postulacion = @idPostulacion";
 
                 using (MySqlCommand cmd = new MySqlCommand(query, conn))
                 {
-                    cmd.Parameters.AddWithValue("@idPostulacion", idPostulacion);
+                    cmd.Parameters.AddWithValue(
+                        "@idPostulacion",
+                        idPostulacion
+                    );
 
                     using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
@@ -109,23 +160,60 @@ namespace PROYECTO2_WEBService.AccesoDatos.Repositorios
                         {
                             oferente = new OferenteDetalleDTO
                             {
-                                IdPostulacion = Convert.ToInt32(reader["id_postulacion"]),
-                                Identificacion = reader["identificacion"].ToString(),
-                                Nombre = reader["nombre_completo"].ToString(),
+                                IdPostulacion = Convert.ToInt32(
+                                    reader["id_postulacion"]
+                                ),
+
+                                Identificacion =
+                                    reader["identificacion"]?.ToString() ?? "",
+
+                                Nombre =
+                                    reader["nombre_completo"]?.ToString() ?? "",
+
                                 Apellido = "",
-                                Email = reader["correo"]?.ToString() ?? "",
-                                Telefono = reader["telefono"]?.ToString() ?? "",
+
+                                Email =
+                                    reader["correo"]?.ToString() ?? "",
+
+                                Telefono =
+                                    reader["telefono"]?.ToString() ?? "",
+
                                 Direccion = "",
-                                FechaNacimiento = reader["fecha_nacimiento"] != DBNull.Value
-                                    ? Convert.ToDateTime(reader["fecha_nacimiento"]).ToString("yyyy-MM-dd")
-                                    : "",
-                                Curriculum = reader["curriculum"]?.ToString() ?? "",
-                                FechaPostulacion = Convert.ToDateTime(reader["fecha_postulacion"])
-                                    .ToString("yyyy-MM-dd HH:mm:ss"),
-                                NombrePuesto = reader["nombre_puesto"].ToString(),
-                                CodigoPuesto = reader["codigo_puesto"].ToString(),
-                                Salario = Convert.ToDecimal(reader["salario"]),
-                                EstadoPuesto = reader["estado"].ToString()
+
+                                FechaNacimiento =
+                                    reader["fecha_nacimiento"] != DBNull.Value
+                                        ? Convert
+                                            .ToDateTime(
+                                                reader["fecha_nacimiento"]
+                                            )
+                                            .ToString("yyyy-MM-dd")
+                                        : "",
+
+                                Curriculum =
+                                    reader["curriculum"]?.ToString() ?? "",
+
+                                FechaPostulacion =
+                                    reader["fecha_postulacion"] != DBNull.Value
+                                        ? Convert
+                                            .ToDateTime(
+                                                reader["fecha_postulacion"]
+                                            )
+                                            .ToString("yyyy-MM-dd HH:mm:ss")
+                                        : "",
+
+                                NombrePuesto =
+                                    reader["nombre_puesto"]?.ToString() ?? "",
+
+                                CodigoPuesto =
+                                    reader["codigo_puesto"]?.ToString() ?? "",
+
+                                Salario =
+                                    reader["salario"] != DBNull.Value
+                                        ? Convert.ToDecimal(reader["salario"])
+                                        : 0,
+
+                                EstadoPuesto =
+                                    reader["estado"]?.ToString() ?? ""
                             };
                         }
                     }
